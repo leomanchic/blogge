@@ -22,7 +22,7 @@ jobs:
       - name: Install dependencies
         run: |
           cd themes/polymathic
-          pnpm install
+          npm install
 
       # Step 4: Build and deploy using Zola
       - name: Build and deploy
