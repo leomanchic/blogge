@@ -18,9 +18,11 @@ jobs:
         with:
           node-version: '16'  # Specify the Node.js version to match your local environment
 
-      # Step 3: Install necessary npm packages (like Bulma)
+      # Step 3: Navigate to the theme directory and install dependencies
       - name: Install dependencies
-        run: npm install
+        run: |
+          cd themes/polymathic
+          npm install
 
       # Step 4: Build and deploy using Zola
       - name: Build and deploy
