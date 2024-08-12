@@ -28,7 +28,3 @@ animate_repeat = 1
 taxonomy_preview_count = 3
 taxonomy_config_path="taxonomies.yaml"
 
-# The theme author info: you!
-[author]
-name = "Aleksandr Novolokov"
-homepage = "https://a.nvlkv.xyz"
