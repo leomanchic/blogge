@@ -1,7 +1,7 @@
 @use "sass:map";
 @use "sass:color";
 @use "sass:math";
-@use "../node_modules/bulma/sass/utilities/functions.sass" as bulma;
+@use "..//node_modules/bulma/sass/utilities/functions.sass" as bulma;
 @import "./a11y-colors";
 
 $poly-config: (
