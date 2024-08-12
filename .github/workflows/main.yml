@@ -20,8 +20,7 @@ jobs:
 
       # Step 3: Install necessary npm packages (like Bulma)
       - name: Install dependencies
-        run: |
-          npm install bulma
+        run: npm install
 
       # Step 4: Build and deploy using Zola
       - name: Build and deploy
