@@ -1,10 +1,10 @@
-@import "//themes/polymathic/node_modules/normalize-scss/sass/normalize";
+@import "../node_modules/normalize-scss/sass/normalize";
 
-@import "//node_modules/animate.css/animate/";
+@import "../node_modules/animate.css/animate";
 
-@import "//variables";
+@import "./variables";
 
-@import "//node_modules/bulma/bulma.sass";
+@import "../node_modules/bulma/bulma.sass";
 
-@import "//poly";
+@import "./poly";
 // dsfs
