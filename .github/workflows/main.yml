@@ -16,7 +16,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'  # Specify the Node.js version to match your local environment
+          node-version: '20'  # Specify the Node.js version to match your local environment
 
       # Step 3: Navigate to the theme directory and install dependencies
       - name: Install dependencies
@@ -26,7 +26,7 @@ jobs:
 
       # Step 4: Build and deploy using Zola
       - name: Build and deploy
-        uses: shalzz/zola-deploy-action@v0.19.1
+        uses: shalzz/zola-deploy-action@v0.17.2
         env:
           # Target branch
           PAGES_BRANCH: gh-pages
