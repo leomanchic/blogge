@@ -1,6 +1,6 @@
 +++
 title="My home page" # title is the minimum required property for content/_index.md
-description="Hello there, Leo is ere 🚄💻"
+description="Hello there, Leo is here 🚄💻"
 [extra.poly]
 +++
 
